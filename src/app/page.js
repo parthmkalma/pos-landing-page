@@ -272,7 +272,7 @@ const App = () => {
                     <Star key={i} className="text-yellow-400 fill-current" size={20} />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
+                <p className="text-gray-700 mb-6 italic">{testimonial.content}</p>
                 <div>
                   <p className="font-semibold text-gray-900">{testimonial.name}</p>
                   <p className="text-gray-600">{testimonial.role}</p>
