@@ -442,7 +442,10 @@ const App = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <div>
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Let's Talk Business</h2>
+              {/* <h2 className="text-2xl font-bold text-gray-900 mb-6">Let's Talk Business</h2>
+               */}
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Let&rsquo;s Talk Business</h2>
+
               <div className="space-y-6">
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
